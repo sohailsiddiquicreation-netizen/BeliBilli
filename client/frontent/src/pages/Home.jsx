@@ -53,7 +53,7 @@ function Home() {
     <div
       className="container"
       style={{
-        padding: "20px 0",
+        padding: "0px 0",
         background: "#f3f3f3",
         minHeight: "100vh",
         maxWidth: "100%",
@@ -77,7 +77,7 @@ function Home() {
                 style={{
                   position: "absolute",
                   width: "100%",
-                  height: "100%",
+                  height: "50%",
                   opacity: currentSlide === index ? 1 : 0,
                   transition: "opacity 1s ease-in-out",
                   backgroundImage: `linear-gradient(to bottom, transparent 60%, #f3f3f3 100%), url(${banner.image})`,
