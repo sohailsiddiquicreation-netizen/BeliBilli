@@ -197,7 +197,7 @@ function Home() {
                 marginBottom: "15px",
               }}
             >
-              Best Deals %
+              Best Deals for you %
             </h3>
             <div
               style={{
