@@ -1,0 +1,91 @@
+.admin-categories {
+  padding: 30px;
+  background: #f6f8fb;
+  min-height: 100vh;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form */
+
+.category-form {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.category-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  outline: none;
+}
+
+.category-form button {
+  background: #5b6cff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-form button:hover {
+  background: #4a58e0;
+}
+
+/* Cards */
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.category-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+}
+
+.category-card h4 {
+  margin: 0;
+  color: #333;
+}
+
+.category-card p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #e63946;
+}

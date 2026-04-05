@@ -1,0 +1,21 @@
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 120px;
+}
+
+.checkout-btn {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
