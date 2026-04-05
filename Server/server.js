@@ -8,9 +8,13 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: [
+      "http://localhost:5173",
+      "http://3.27.56.226",
+      "http://3.27.56.226:5173",
+    ],
     credentials: true,
-  }),
+  })
 );
 
 app.use(cookieParser());
@@ -43,6 +47,6 @@ app.use("/api/categories", categoryRoutes);
 // Server
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
